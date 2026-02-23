@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "bookmarks-project"
+version = "0.1.0"
+description = ""
+authors = ["Todor Lubenov"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.128.0"
+pymongo = "^4.16.0"
+pydantic = "^2.12.5"
+uvicorn = "^0.40.0"
+psycopg2-binary = "^2.9.11"
+pytest = "^9.0.2"
+httpx = "^0.28.1"
+aiofiles = "^25.1.0"
+python-jose = "^3.5.0"
+python-multipart = "^0.0.22"
+passlib = "^1.7.4"
+bcrypt = "^5.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
